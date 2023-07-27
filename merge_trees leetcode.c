@@ -9,4 +9,5 @@ struct TreeNode* mergeTrees(struct TreeNode* root1, struct TreeNode* root2){
     newNode->left = mergeTrees(root1->left, root2->left);
     newNode->right = mergeTrees(root1->right, root2->right);
     return newNode;
+    //etc
 }
