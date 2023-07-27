@@ -15,7 +15,7 @@ int delete_front(int q[],int *r, int *f)
     int del_item=-1;
     *f=*f+1;
     del_item=q[*f];
-    
+
     
     return del_item;
 }
